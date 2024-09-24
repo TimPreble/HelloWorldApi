@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  helloworldapi:
+    image: helloworldapi:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1234:8080"  # Map container port 80 to host port 5000
