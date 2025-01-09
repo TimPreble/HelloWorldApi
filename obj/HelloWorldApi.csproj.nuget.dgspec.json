@@ -1,27 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tpreble/CODE/GitRepos/PreblePi/HelloWorldApi/HelloWorldApi.csproj": {}
+    "Z:\\CODE\\GitRepos\\github-timpreble\\HelloWorldApi\\HelloWorldApi.csproj": {}
   },
   "projects": {
-    "/Users/tpreble/CODE/GitRepos/PreblePi/HelloWorldApi/HelloWorldApi.csproj": {
+    "Z:\\CODE\\GitRepos\\github-timpreble\\HelloWorldApi\\HelloWorldApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tpreble/CODE/GitRepos/PreblePi/HelloWorldApi/HelloWorldApi.csproj",
+        "projectUniqueName": "Z:\\CODE\\GitRepos\\github-timpreble\\HelloWorldApi\\HelloWorldApi.csproj",
         "projectName": "HelloWorldApi",
-        "projectPath": "/Users/tpreble/CODE/GitRepos/PreblePi/HelloWorldApi/HelloWorldApi.csproj",
-        "packagesPath": "/Users/tpreble/.nuget/packages/",
-        "outputPath": "/Users/tpreble/CODE/GitRepos/PreblePi/HelloWorldApi/obj/",
+        "projectPath": "Z:\\CODE\\GitRepos\\github-timpreble\\HelloWorldApi\\HelloWorldApi.csproj",
+        "packagesPath": "C:\\Users\\tpreble\\.nuget\\packages\\",
+        "outputPath": "Z:\\CODE\\GitRepos\\github-timpreble\\HelloWorldApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tpreble/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tpreble\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/usxpressinc/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -38,8 +41,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -73,20 +75,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.101/libexec/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
